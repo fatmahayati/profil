@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<head> 
+ <title>Profil</title> 
+ <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> 
+</head> 
+<body style="background-color:rgb(243, 141, 184);">  
+  <img src="ipat.jpeg" style="width:200px;height:200px;">
+ 
+    <div id="app"> 
+       <h2>{{message}}</h2> 
+       <p>{{Nama_Lengkap}}</p> 
+       <P>{{NIM}}</P> 
+       <P>{{Jurusan}}</P> 
+       <p>{{Fakultas}}</p> 
+       <p>{{Tempat_tanggal_lahir}}</p> 
+       <P>{{Jenis_Kelamin}}</P> 
+       <P>{{Agama}}</P> 
+      </div> 
+ 
+      <script type="text/javascript"> 
+                var vm = new Vue({ 
+        el: '#app', 
+        data: { 
+            message: 'Data Diri', 
+            Nama_Lengkap:   'Nama : Fatma Hayati', 
+            NIM: 'NIM : 11950125061', 
+            Jurusan:  'Jurusan :  teknik informatika', 
+            Fakultas:  'Fakultas : Sains dan teknologi', 
+            Tempat_Tanggal_lahir :   'Tempat Tanggal Lahir : Padang Panjang, 31 Agustus 1999', 
+           jenis_Kelamin:   'Jenis Kelamin : Perempuan', 
+           Agama:   'Agama : Islam' 
+        } 
+        }) 
+      </script> 
+</html> 
+</body>
